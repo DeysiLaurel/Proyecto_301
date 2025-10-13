@@ -1,0 +1,47 @@
+﻿# Sazon Peruana 
+
+## Descripción
+Breve descripción del proyecto (2-3 líneas).
+
+## Características Principales
+- Repositorio guia
+- Facil de usar
+- Colabrativo
+
+## Tecnologías
+### Frontend
+- HTML5, CSS3, JavaScript
+- [Otras tecnologías usadas]
+
+### Backend 
+- Node.js / Javascript / Express
+- Base de datos: Mysql
+
+## Estructura del Proyecto
+Se considero la estructura del frontend y backend en el mismo repositorio, ya que el proyecto trabajado es de caracter individual, archivos de proceso en la raiz del directorio, asignacion de forntend y backend ensus respectivas carpetas
+
+## Diseño
+- **Figma:** https://www.figma.com/design/W1ckLCY1GWmAAZDX7N0laa/Sistema-de-venta-Saz%C3%B3n-Peruana?node-id=664-8988&t=Cr28UnpIYsLQRqcA-1
+- **Trello:** https://trello.com/invite/b/68cc6dfa8684c529916c7808/ATTIf0d32ec48483003d11ea601c7d67a3e1E6D1CBDC/sistema-de-comida-peruana
+
+## Gestión Ágil
+- Metodología: Scrum
+- Duración de Sprints: 2 semanas
+- Herramienta de gestión: Trello
+
+## Equipo
+- **Scrum Master:** Deysi Laurel Marin 
+- **Product Owner:** Sazon Peruana 
+- **Developers:** Deysi Laurel Marin 
+
+## Instalación y Uso
+```bash
+# Clonar el repositorio
+git clone https://github.com/DeysiLaurel/Proyecto_301.git
+
+# Instalar dependencias
+npm install
+
+# Ejecutar proyecto
+npm start
+
