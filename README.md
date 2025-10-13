@@ -1,7 +1,7 @@
 ﻿# Sazon Peruana 
 
 ## Descripción
-Breve descripción del proyecto (2-3 líneas).
+aqui descripcion 
 
 ## Características Principales
 - Repositorio guia
