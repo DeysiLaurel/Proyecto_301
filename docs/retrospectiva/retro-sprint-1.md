@@ -1,28 +1,31 @@
 # Retrospectiva Sprint [1]
 
-**Fecha:** [DD/MM/YYYY]
-**Duración del Sprint:** [Fecha inicio] - [Fecha fin]
+**Fecha:** [14/10/2025]
+**Duración del Sprint:** [28/09/2025] - [05/10/2025]
 
 ## ¿Qué funcionó bien?
-- [Práctica o evento positivo 1]
-- [Práctica o evento positivo 2]
+- El flujo del proyecto se logro 100%
+- Los test de usabilidad para el usuario se completo 100%
+- Las vistas mobile yh desktop se prototiparon correctamente
+- Cada componente tiene su variante
 
 ## ¿Qué no funcionó?
-- [Problema o impedimento 1]
-- [Problema o impedimento 2]
+- No se logró que el prototipado de vista en desktop
+- 
 
 ## ¿Qué podemos mejorar?
-- [Acción de mejora 1]
-- [Acción de mejora 2]
+- Priorizar componente con animaciones
 
 ## Métricas del Sprint
-- **Historias completadas:** X de Y
+- **Historias completadas:** 10 de 18
 - **Velocity:** [puntos]
 - **Bugs encontrados:** [número]
 
 ## Compromisos para el Próximo Sprint
-- [ ] [Acción concreta 1]
-- [ ] [Acción concreta 2]
+- [ ] Cumplir con el plazo establecido en cada historia
+- [ ] Comunicar impedimentos y errores
+- [ ] Verificar el funcionamiento optimo 
+
 
 
 
