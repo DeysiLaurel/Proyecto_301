@@ -1,14 +1,16 @@
-﻿# Sazon Peruana 
+﻿# SAZÓN PERUANA 🍴
 
 ## Descripción
-aqui descripcion 
+“Sazón Peruana” es una aplicación diseñada para promover y vender comida típica peruana, ofreciendo a los usuarios una experiencia intuitiva, atractiva y segura para explorar categorías culinarias, elegir platos destacados y realizar pedidos con métodos de pago modernos y confiables
 
-## Características Principales
-- Repositorio guia
+## Características Principales 
+- Adaptable y accesible
 - Facil de usar
 - Colabrativo
+- Rápido y eficiente
+- Personalizable
 
-## Tecnologías
+## Tecnologías 💻
 ### Frontend
 - HTML5, CSS3, JavaScript
 - [Otras tecnologías usadas]
@@ -20,7 +22,7 @@ aqui descripcion
 ## Estructura del Proyecto
 Se considero la estructura del frontend y backend en el mismo repositorio, ya que el proyecto trabajado es de caracter individual, archivos de proceso en la raiz del directorio, asignacion de forntend y backend ensus respectivas carpetas
 
-## Diseño
+## Diseño 
 - **Figma:** https://www.figma.com/design/W1ckLCY1GWmAAZDX7N0laa/Sistema-de-venta-Saz%C3%B3n-Peruana?node-id=664-8988&t=Cr28UnpIYsLQRqcA-1
 - **Trello:** https://trello.com/invite/b/68cc6dfa8684c529916c7808/ATTIf0d32ec48483003d11ea601c7d67a3e1E6D1CBDC/sistema-de-comida-peruana
 
@@ -29,7 +31,7 @@ Se considero la estructura del frontend y backend en el mismo repositorio, ya qu
 - Duración de Sprints: 2 semanas
 - Herramienta de gestión: Trello
 
-## Equipo
+## Equipo 👩‍💻
 - **Scrum Master:** Deysi Laurel Marin 
 - **Product Owner:** Sazon Peruana 
 - **Developers:** Deysi Laurel Marin 
