@@ -1,7 +1,7 @@
-# Sprint Planning - Sprint [1]
+# Sprint Planning - Sprint [2]
 
-**Fecha de Planning:** [20/09/2025]
-**Duración del Sprint:** [4 semanas]
+**Fecha de Planning:** [27/09/2025]
+**Duración del Sprint:** [1 semanas]
 
 ## Objetivo del Sprint
 [Descripción clara de qué valor se entregará]
@@ -21,7 +21,7 @@
   - [ ] [Botón de “Continuar con Google”]
   - [ ] [Tener el boton de iniciar sesion y crear cuenta]
 
-  #### Historia #2: [Diseño Pantalla Menu]
+  #### Historia #3: [Diseño Pantalla Menu]
 - **Como:** Usuario de la aplicación Sazón Peruana
 - **Quiero:** ver una pantalla de inicio atractiva con el logo, los platos destacados, la promo del dia e íconos 
 - **Para:**  Sentir confianza y engancharme desde el primer movimiento

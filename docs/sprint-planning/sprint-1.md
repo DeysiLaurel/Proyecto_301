@@ -1,7 +1,7 @@
 # Sprint Planning - Sprint [1]
 
 **Fecha de Planning:** [20/09/2025]
-**Duración del Sprint:** [4 semanas]
+**Duración del Sprint:** [1 semana]
 
 ## Objetivo del Sprint
 [Descripción clara de qué valor se entregará]
