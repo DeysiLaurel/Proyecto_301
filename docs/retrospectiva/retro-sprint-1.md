@@ -4,31 +4,30 @@
 **Duración del Sprint:** [28/09/2025] - [05/10/2025]
 
 ## ¿Qué funcionó bien?
+
 - El flujo del proyecto se logro 100%
 - Los test de usabilidad para el usuario se completo 100%
 - Las vistas mobile yh desktop se prototiparon correctamente
 - Cada componente tiene su variante
 
 ## ¿Qué no funcionó?
+
 - No se logró que el prototipado de vista en desktop
-- 
+- No se logró eficientemente las animaciones de imagenes
 
 ## ¿Qué podemos mejorar?
+
 - Priorizar componente con animaciones
+- Mejorar el diseño del carrusel
 
 ## Métricas del Sprint
+
 - **Historias completadas:** 10 de 18
 - **Velocity:** [puntos]
 - **Bugs encontrados:** [número]
 
 ## Compromisos para el Próximo Sprint
+
 - [ ] Cumplir con el plazo establecido en cada historia
 - [ ] Comunicar impedimentos y errores
-- [ ] Verificar el funcionamiento optimo 
-
-
-
-
-
-
-
+- [ ] Verificar el funcionamiento optimo

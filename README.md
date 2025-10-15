@@ -17,10 +17,16 @@
 
 ### Backend 
 - Node.js / Javascript / Express
-- Base de datos: Mysql
+- Base de datos: PosgreSQL
 
 ## Estructura del Proyecto
 Se considero la estructura del frontend y backend en el mismo repositorio, ya que el proyecto trabajado es de caracter individual, archivos de proceso en la raiz del directorio, asignacion de forntend y backend ensus respectivas carpetas
+
+- `docs`- Documentacionde sprints y retrospectiva
+- `src/backend/`- API y logica de negocio
+- `src/frontend/` -Interfaz de usuario
+- `src/test/` - Pruebas automatizadas
+
 
 ## Diseño 
 - **Figma:** https://www.figma.com/design/W1ckLCY1GWmAAZDX7N0laa/Sistema-de-venta-Saz%C3%B3n-Peruana?node-id=664-8988&t=Cr28UnpIYsLQRqcA-1
