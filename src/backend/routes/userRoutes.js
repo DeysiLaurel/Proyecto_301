@@ -1,5 +1,5 @@
 import express from "express";
-import { userController } from "../controllers/userController.js";
+import  {userController}  from "../controllers/userController.js";
 
 const router = express.Router();
 
@@ -21,7 +21,7 @@ const router = express.Router();
  *          example: Milagros
  */
 
-//Rutas para llamar al usuario
+// Obtener todos los usuarios
 router.get("/", userController.getUsers);
 /**
  * @swagger
@@ -31,10 +31,11 @@ router.get("/", userController.getUsers);
  *    tags: [Users]
  *    responses:
  *      200:
- *       description: Ok
- * 
+ *        description: Lista de usuarios obtenida correctamente
  */
 
+
+// Crear nuevo usuario
 router.post("/", userController.createUser);
 /**
  * @swagger
@@ -44,7 +45,7 @@ router.post("/", userController.createUser);
  *    tags: [Users]
  *    requestBody:
  *      required: true
- *      content: 
+ *      content:
  *        application/json:
  *          schema:
  *            type: object
@@ -62,15 +63,15 @@ router.post("/", userController.createUser);
  *          application/json:
  *            $ref: '#/components/schemas/User'
  *      400:
- *        description: Datos invalidos
+ *        description: Datos inválidos
  *      500:
  *        description: Error del servidor
  */
 
 
+// Actualizar usuario (PUT)
 router.put("/:id", userController.updateUser);
-/**
- * @swagger
+
 /**
  * @swagger
  * /api/users/{id}:
@@ -86,14 +87,14 @@ router.put("/:id", userController.updateUser);
  *          type: integer
  *    requestBody:
  *      required: true
- *      content: 
+ *      content:
  *        application/json:
  *          schema:
  *            type: object
  *            properties:
  *              email:
  *                type: string
- *                example: Pamela@gmail.com
+ *                example: pamela@gmail.com
  *              name:
  *                type: string
  *                example: Pamela
@@ -104,17 +105,41 @@ router.put("/:id", userController.updateUser);
  *          application/json:
  *            $ref: '#/components/schemas/User'
  *      400:
- *        description: Datos invalidos
+ *        description: Datos inválidos
  *      500:
  *        description: Error del servidor
  */
 
 
+// Eliminar usuario (DELETE)
+router.delete("/:id", userController.deleteUser);
+/**
+ * @swagger
+ * /api/users/{id}:
+ *  delete:
+ *    summary: Eliminar usuario por ID
+ *    tags: [Users]
+ *    parameters:
+ *      - name: id
+ *        in: path
+ *        required: true
+ *        description: ID del usuario a eliminar
+ *        schema:
+ *          type: integer
+ *    responses:
+ *      200:
+ *        description: Usuario eliminado correctamente
+ *        content:
+ *          application/json:
+ *            $ref: '#/components/schemas/User'
+ *      404:
+ *        description: Usuario no encontrado
+ *      500:
+ *        description: Error del servidor
+ */
 
 
-
-//Metodo para eliminar DELETE
-
-//Metodo para modificar PATCH
+// (Opcional) Actualización parcial (PATCH)
+// router.patch("/:id", userController.patchUser);
 
 export default router;

@@ -65,5 +65,22 @@ export const userController = {
         message: error.message
       });
     }
+  },
+  async deleteUser (req, res) {
+    try {
+      const { id } = req.params;
+      const deleteUserResult = await userService.deleteUser(id);
+
+      res.status(200).json({
+        success: true,
+        message: 'Usuario eliminado correctamente'
+      });
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        message: error.message
+      });
+    }
   }
+  
 };
