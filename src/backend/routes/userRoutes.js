@@ -1,5 +1,5 @@
 import express from "express";
-import  {userController}  from "../controllers/userController.js";
+import  {userControllers}  from "../controllers/userControllers.js";
 
 const router = express.Router();
 
@@ -22,7 +22,7 @@ const router = express.Router();
  */
 
 // Obtener todos los usuarios
-router.get("/", userController.getUsers);
+router.get("/", userControllers.getUsers);
 /**
  * @swagger
  * /api/users:
@@ -36,7 +36,7 @@ router.get("/", userController.getUsers);
 
 
 // Crear nuevo usuario
-router.post("/", userController.createUser);
+router.post("/", userControllers.createUser);
 /**
  * @swagger
  * /api/users:
@@ -70,7 +70,7 @@ router.post("/", userController.createUser);
 
 
 // Actualizar usuario (PUT)
-router.put("/:id", userController.updateUser);
+router.put("/:id", userControllers.updateUser);
 
 /**
  * @swagger
@@ -112,7 +112,7 @@ router.put("/:id", userController.updateUser);
 
 
 // Eliminar usuario (DELETE)
-router.delete("/:id", userController.deleteUser);
+router.delete("/:id", userControllers.deleteUser);
 /**
  * @swagger
  * /api/users/{id}:
@@ -140,6 +140,6 @@ router.delete("/:id", userController.deleteUser);
 
 
 // (Opcional) Actualización parcial (PATCH)
-// router.patch("/:id", userController.patchUser);
+// router.patch("/:id", userControllers.patchUser);
 
 export default router;
