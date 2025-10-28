@@ -19,15 +19,15 @@ export const comparePassword = async (password, hashedPassword) => {
 export const generateToken = (userId, email) => {
   return jwt.sign(
     { id: userId, email },
-    process.env.JWT_SECRET, // Parámetro obligatorio
-    { expiresIn: process.env.JWT_EXPIRES_IN || "7d" } //  "process" corregido
+    process.env.JWT_SECRET, 
+    { expiresIn: process.env.JWT_EXPIRES_IN || "7d" } 
   );
 };
 
 // Verificar token JWT
 export const verifyToken = (token) => {
   try {
-    return jwt.verify(token, process.env.JWT_SECRET); // orden correcto
+    return jwt.verify(token, process.env.JWT_SECRET); 
   } catch (error) {
     return null;
   }
