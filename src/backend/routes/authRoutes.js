@@ -44,4 +44,33 @@ const router = express.Router();
  *         description: Error interno del servidor
  */
 router.post("/register",authControllers.register)
+
+/**
+ * @swagger
+ * /api/auth/login:
+ *   post:
+ *     summary: Iniciar sesión de usuario
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               email:
+ *                 type: string
+ *                 example: fabiana@gmail.com
+ *               password:
+ *                 type: string
+ *                 example: fabi1234
+ *     responses:
+ *       200:
+ *         description: Inicio de sesión exitoso
+ *       400:
+ *         description: Email o contraseña incorrectos
+ *       500:
+ *         description: Error interno del servidor
+ */
+router.post("/login", authControllers.login);
 export default router;

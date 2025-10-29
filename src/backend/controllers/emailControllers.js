@@ -8,7 +8,7 @@ export const registerUser = async (req, res) => {
       "Bienvenido",
       `Hola ${name}, bienvenido a nuestra app`
     );
-    res.status(200).json({ message: "Usuario creado, email enviado" });
+    res.status(201).json({ message: "Usuario creado, email enviado" });
   } catch (error) {
     console.error("Error al enviar correo:", error);
     res.status(500).json({ message: "Error al enviar el correo", error });

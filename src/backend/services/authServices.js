@@ -23,7 +23,22 @@ export const authServices = {
      }
     
     } catch (error) {
-        throw new Error("Error al regitsr usuario" +error);
+        throw new Error("Error al registrar usuario" +error);
+    }
+  },
+  //Login
+  async login({ email, password }) {
+    try {
+      const user = await prisma.user.findUnique({ where: { email } });
+      if (!user) throw new Error("Usuario no encontrado");
+
+      const isValid = await comparePassword(password, user.password);
+      if (!isValid) throw new Error("Contraseña incorrecta");
+
+      const { password: _, ...userWithoutPassword } = user;
+      return { user: userWithoutPassword };
+    } catch (error) {
+      throw new Error(error.message);
     }
   },
 };
